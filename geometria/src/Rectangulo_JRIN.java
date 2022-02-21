@@ -1,4 +1,7 @@
-
+/**  
+ * @author Rafa
+ * @version 1.2
+ */
 public class Rectangulo_JRIN extends FiguraGeometrica_JRIN {
 	private double l1;
 	private double l2;
