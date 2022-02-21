@@ -23,7 +23,6 @@ public class Triangulo_JRIN extends FiguraGeometrica_JRIN {
 		return Math.sqrt(sp * (sp-lado1) * (sp-lado2) * (sp-lado3));
 	}
 	
-	public double semiPerimetro() {
-		return this.perimetro() / 2;
+	
 	}
-}
+
