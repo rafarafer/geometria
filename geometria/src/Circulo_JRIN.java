@@ -7,6 +7,8 @@ public class Circulo_JRIN extends FiguraGeometrica_JRIN {
 	public Circulo_JRIN(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
+		
+		if (radio<0){radio=radio*-1;}
 	}
 
 	@Override
@@ -18,6 +20,7 @@ public class Circulo_JRIN extends FiguraGeometrica_JRIN {
 	@Override
 	public double perimetro() {
 		return radio * 2 * PI;
+	
+	
 	}
-
 }
