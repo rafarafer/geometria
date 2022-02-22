@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_UCSlIJQMEeyqd-8HvXcrUw">
+  <modelElement href="geometria.uml#_GWwCMJQMEeyqd-8HvXcrUw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VcR24JQMEeyqd-8HvXcrUw" targetItem="_VcddEJQMEeyqd-8HvXcrUw" sourceItem="_VcRP0JQMEeyqd-8HvXcrUw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZqFUEJQMEeyqd-8HvXcrUw" sourceAnchor="0.0,76.0" targetAnchor="423.0,87.0" superClass="_ZqMo0JQMEeyqd-8HvXcrUw" subClass="_VcddEJQMEeyqd-8HvXcrUw">
+    <modelElement href="geometria.uml#_Go6JMJQMEeyqd-8HvXcrUw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_dE51IJQMEeyqd-8HvXcrUw" sourceAnchor="185.0,0.0" targetAnchor="211.0,175.0" superClass="_ZqMo0JQMEeyqd-8HvXcrUw" subClass="_dE-toJQMEeyqd-8HvXcrUw">
+    <modelElement href="geometria.uml#_Go47EJQMEeyqd-8HvXcrUw"/>
+    <bendpoints xmi:id="_r3oCkJQMEeyqd-8HvXcrUw" sourceY="-32" targetX="-35" targetY="12"/>
+    <bendpoints xmi:id="_r3opoJQMEeyqd-8HvXcrUw" sourceX="35" sourceY="-32" targetY="12"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_e2d5YJQMEeyqd-8HvXcrUw" sourceAnchor="292.0,0.0" targetAnchor="211.0,175.0" superClass="_ZqMo0JQMEeyqd-8HvXcrUw" subClass="_e2ix4JQMEeyqd-8HvXcrUw">
+    <modelElement href="geometria.uml#_Go7XUJQMEeyqd-8HvXcrUw"/>
+    <bendpoints xmi:id="_r3opoZQMEeyqd-8HvXcrUw" sourceY="-13" targetX="473" targetY="12"/>
+    <bendpoints xmi:id="_r3opopQMEeyqd-8HvXcrUw" sourceX="-473" sourceY="-13" targetY="12"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VcRP0JQMEeyqd-8HvXcrUw" sourceConnectionVisual="_VcR24JQMEeyqd-8HvXcrUw" text="@author Rafa&#xD;&#xA;@version 1.2" item="_VcddEJQMEeyqd-8HvXcrUw">
+    <modelElement href="geometria.uml#_VbDu4JQMEeyqd-8HvXcrUw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dE-toJQMEeyqd-8HvXcrUw" name="Circulo_JRIN" generalizations="_dE51IJQMEeyqd-8HvXcrUw">
+    <modelElement href="geometria.uml#_GnUNwJQMEeyqd-8HvXcrUw"/>
+    <visualProperties xmi:id="_dE-toZQMEeyqd-8HvXcrUw" position="36.0,276.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dE-topQMEeyqd-8HvXcrUw" label="+"/>
+    <attributes xmi:id="_dE-to5QMEeyqd-8HvXcrUw" name="radio">
+      <modelElement href="geometria.uml#_Go9zkJQMEeyqd-8HvXcrUw"/>
+      <stereotypes xmi:id="_dE-tpJQMEeyqd-8HvXcrUw" name="LegacyStyledElement">
+        <modelElement href="geometria.uml#_Go_BsJQMEeyqd-8HvXcrUw"/>
+      </stereotypes>
+      <visibility xmi:id="_dE-tpZQMEeyqd-8HvXcrUw" label="-"/>
+      <cardinality xmi:id="_dE-tppQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <type xmi:id="_dE-tp5QMEeyqd-8HvXcrUw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dE-tqJQMEeyqd-8HvXcrUw" defaultValue="3.1416" name="PI" staticAttribute="true">
+      <modelElement href="geometria.uml#_Go_BsZQMEeyqd-8HvXcrUw"/>
+      <visibility xmi:id="_dE-tqZQMEeyqd-8HvXcrUw" label="~"/>
+      <cardinality xmi:id="_dE-tqpQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <type xmi:id="_dE-tq5QMEeyqd-8HvXcrUw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_dE-trJQMEeyqd-8HvXcrUw" name="Circulo_JRIN">
+      <modelElement href="geometria.uml#_GnfM4JQMEeyqd-8HvXcrUw"/>
+      <keywords xmi:id="_dE-trZQMEeyqd-8HvXcrUw" keyword="create"/>
+      <visibility xmi:id="_dE-trpQMEeyqd-8HvXcrUw" label="+"/>
+      <cardinality xmi:id="_dE-tr5QMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dE-tsJQMEeyqd-8HvXcrUw">
+        <modelElement href="geometria.uml#_GnhpIpQMEeyqd-8HvXcrUw"/>
+        <type xmi:id="_dE-tsZQMEeyqd-8HvXcrUw" name="Circulo_JRIN">
+          <modelElement href="geometria.uml#_GnUNwJQMEeyqd-8HvXcrUw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dE-tspQMEeyqd-8HvXcrUw" name="r">
+        <modelElement href="geometria.uml#_GnfM4ZQMEeyqd-8HvXcrUw"/>
+        <cardinality xmi:id="_dE-ts5QMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+        <type xmi:id="_dE-ttJQMEeyqd-8HvXcrUw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dE-ttZQMEeyqd-8HvXcrUw" name="tipoFigura">
+        <modelElement href="geometria.uml#_Gnfz8JQMEeyqd-8HvXcrUw"/>
+        <cardinality xmi:id="_dE-ttpQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+        <type xmi:id="_dE-tt5QMEeyqd-8HvXcrUw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dE-tuJQMEeyqd-8HvXcrUw" name="area">
+      <modelElement href="geometria.uml#_Gni3QJQMEeyqd-8HvXcrUw"/>
+      <stereotypes xmi:id="_dE-tuZQMEeyqd-8HvXcrUw" name="LegacyStyledElement">
+        <modelElement href="geometria.uml#_GnkFYJQMEeyqd-8HvXcrUw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dE-tupQMEeyqd-8HvXcrUw" name="Annotations">
+        <modelElement href="geometria.uml#_GnlTgJQMEeyqd-8HvXcrUw"/>
+      </stereotypes>
+      <visibility xmi:id="_dE-tu5QMEeyqd-8HvXcrUw" label="+"/>
+      <cardinality xmi:id="_dE-tvJQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dE-tvZQMEeyqd-8HvXcrUw">
+        <modelElement href="geometria.uml#_GnjeUJQMEeyqd-8HvXcrUw"/>
+        <type xmi:id="_dE-tvpQMEeyqd-8HvXcrUw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dE-tv5QMEeyqd-8HvXcrUw" name="perimetro">
+      <modelElement href="geometria.uml#_GnsBMJQMEeyqd-8HvXcrUw"/>
+      <stereotypes xmi:id="_dE-twJQMEeyqd-8HvXcrUw" name="LegacyStyledElement">
+        <modelElement href="geometria.uml#_GntPUJQMEeyqd-8HvXcrUw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dE-twZQMEeyqd-8HvXcrUw" name="Annotations">
+        <modelElement href="geometria.uml#_Gnt2YJQMEeyqd-8HvXcrUw"/>
+      </stereotypes>
+      <visibility xmi:id="_dE-twpQMEeyqd-8HvXcrUw" label="+"/>
+      <cardinality xmi:id="_dE-tw5QMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dE-txJQMEeyqd-8HvXcrUw">
+        <modelElement href="geometria.uml#_GnsoQJQMEeyqd-8HvXcrUw"/>
+        <type xmi:id="_dE-txZQMEeyqd-8HvXcrUw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_e2ix4JQMEeyqd-8HvXcrUw" name="Triangulo_JRIN" generalizations="_e2d5YJQMEeyqd-8HvXcrUw">
+    <modelElement href="geometria.uml#_GoBYYJQMEeyqd-8HvXcrUw"/>
+    <visualProperties xmi:id="_e2ix4ZQMEeyqd-8HvXcrUw" position="437.0,257.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_e2ix4pQMEeyqd-8HvXcrUw" label="+"/>
+    <attributes xmi:id="_e2ix45QMEeyqd-8HvXcrUw" name="lado1">
+      <modelElement href="geometria.uml#_GpDTIZQMEeyqd-8HvXcrUw"/>
+      <stereotypes xmi:id="_e2ix5JQMEeyqd-8HvXcrUw" name="LegacyStyledElement">
+        <modelElement href="geometria.uml#_GpD6MJQMEeyqd-8HvXcrUw"/>
+      </stereotypes>
+      <visibility xmi:id="_e2ix5ZQMEeyqd-8HvXcrUw" label="-"/>
+      <cardinality xmi:id="_e2ix5pQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <type xmi:id="_e2ix55QMEeyqd-8HvXcrUw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_e2ix6JQMEeyqd-8HvXcrUw" name="lado2">
+      <modelElement href="geometria.uml#_GpEhQJQMEeyqd-8HvXcrUw"/>
+      <stereotypes xmi:id="_e2ix6ZQMEeyqd-8HvXcrUw" name="LegacyStyledElement">
+        <modelElement href="geometria.uml#_GpFIUJQMEeyqd-8HvXcrUw"/>
+      </stereotypes>
+      <visibility xmi:id="_e2ix6pQMEeyqd-8HvXcrUw" label="-"/>
+      <cardinality xmi:id="_e2ix65QMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <type xmi:id="_e2ix7JQMEeyqd-8HvXcrUw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_e2ix7ZQMEeyqd-8HvXcrUw" name="lado3">
+      <modelElement href="geometria.uml#_GpFIUZQMEeyqd-8HvXcrUw"/>
+      <stereotypes xmi:id="_e2ix7pQMEeyqd-8HvXcrUw" name="LegacyStyledElement">
+        <modelElement href="geometria.uml#_GpFvYJQMEeyqd-8HvXcrUw"/>
+      </stereotypes>
+      <visibility xmi:id="_e2ix75QMEeyqd-8HvXcrUw" label="-"/>
+      <cardinality xmi:id="_e2ix8JQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <type xmi:id="_e2ix8ZQMEeyqd-8HvXcrUw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_e2ix8pQMEeyqd-8HvXcrUw" name="Triangulo_JRIN">
+      <modelElement href="geometria.uml#_GoCmgJQMEeyqd-8HvXcrUw"/>
+      <keywords xmi:id="_e2ix85QMEeyqd-8HvXcrUw" keyword="create"/>
+      <visibility xmi:id="_e2ix9JQMEeyqd-8HvXcrUw" label="+"/>
+      <cardinality xmi:id="_e2ix9ZQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_e2ix9pQMEeyqd-8HvXcrUw">
+        <modelElement href="geometria.uml#_GoDNlpQMEeyqd-8HvXcrUw"/>
+        <type xmi:id="_e2ix95QMEeyqd-8HvXcrUw" name="Triangulo_JRIN">
+          <modelElement href="geometria.uml#_GoBYYJQMEeyqd-8HvXcrUw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_e2ix-JQMEeyqd-8HvXcrUw" name="tipoFigura">
+        <modelElement href="geometria.uml#_GoDNkJQMEeyqd-8HvXcrUw"/>
+        <cardinality xmi:id="_e2ix-ZQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+        <type xmi:id="_e2ix-pQMEeyqd-8HvXcrUw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_e2ix-5QMEeyqd-8HvXcrUw" name="lado1">
+        <modelElement href="geometria.uml#_GoDNkZQMEeyqd-8HvXcrUw"/>
+        <cardinality xmi:id="_e2ix_JQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+        <type xmi:id="_e2ix_ZQMEeyqd-8HvXcrUw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_e2ix_pQMEeyqd-8HvXcrUw" name="lado2">
+        <modelElement href="geometria.uml#_GoDNkpQMEeyqd-8HvXcrUw"/>
+        <cardinality xmi:id="_e2ix_5QMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+        <type xmi:id="_e2iyAJQMEeyqd-8HvXcrUw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_e2iyAZQMEeyqd-8HvXcrUw" name="lado3">
+        <modelElement href="geometria.uml#_GoDNk5QMEeyqd-8HvXcrUw"/>
+        <cardinality xmi:id="_e2iyApQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+        <type xmi:id="_e2iyA5QMEeyqd-8HvXcrUw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_e2iyBJQMEeyqd-8HvXcrUw" name="perimetro">
+      <modelElement href="geometria.uml#_GoD0oJQMEeyqd-8HvXcrUw"/>
+      <stereotypes xmi:id="_e2iyBZQMEeyqd-8HvXcrUw" name="LegacyStyledElement">
+        <modelElement href="geometria.uml#_GoEbsZQMEeyqd-8HvXcrUw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_e2iyBpQMEeyqd-8HvXcrUw" name="Annotations">
+        <modelElement href="geometria.uml#_GoFCwJQMEeyqd-8HvXcrUw"/>
+      </stereotypes>
+      <visibility xmi:id="_e2iyB5QMEeyqd-8HvXcrUw" label="+"/>
+      <cardinality xmi:id="_e2iyCJQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_e2iyCZQMEeyqd-8HvXcrUw">
+        <modelElement href="geometria.uml#_GoEbsJQMEeyqd-8HvXcrUw"/>
+        <type xmi:id="_e2jY8JQMEeyqd-8HvXcrUw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_e2jY8ZQMEeyqd-8HvXcrUw" name="area">
+      <modelElement href="geometria.uml#_GoFCwpQMEeyqd-8HvXcrUw"/>
+      <stereotypes xmi:id="_e2jY8pQMEeyqd-8HvXcrUw" name="LegacyStyledElement">
+        <modelElement href="geometria.uml#_GoFp0ZQMEeyqd-8HvXcrUw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_e2jY85QMEeyqd-8HvXcrUw" name="Annotations">
+        <modelElement href="geometria.uml#_GoGQ4JQMEeyqd-8HvXcrUw"/>
+      </stereotypes>
+      <visibility xmi:id="_e2jY9JQMEeyqd-8HvXcrUw" label="+"/>
+      <cardinality xmi:id="_e2jY9ZQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_e2jY9pQMEeyqd-8HvXcrUw">
+        <modelElement href="geometria.uml#_GoFp0JQMEeyqd-8HvXcrUw"/>
+        <type xmi:id="_e2jY95QMEeyqd-8HvXcrUw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VcddEJQMEeyqd-8HvXcrUw" comments="_VcRP0JQMEeyqd-8HvXcrUw" targetConnectionVisual="_VcR24JQMEeyqd-8HvXcrUw" name="Rectangulo_JRIN" generalizations="_ZqFUEJQMEeyqd-8HvXcrUw">
+    <modelElement href="geometria.uml#_Gn6DoJQMEeyqd-8HvXcrUw"/>
+    <visualProperties xmi:id="_VcddEZQMEeyqd-8HvXcrUw" position="525.0,68.0" size="461.0,137.0"/>
+    <visibility xmi:id="_VcddEpQMEeyqd-8HvXcrUw" label="+"/>
+    <attributes xmi:id="_VcddE5QMEeyqd-8HvXcrUw" name="l1">
+      <modelElement href="geometria.uml#_GpBd8JQMEeyqd-8HvXcrUw"/>
+      <stereotypes xmi:id="_VcddFJQMEeyqd-8HvXcrUw" name="LegacyStyledElement">
+        <modelElement href="geometria.uml#_GpCFAJQMEeyqd-8HvXcrUw"/>
+      </stereotypes>
+      <visibility xmi:id="_VcddFZQMEeyqd-8HvXcrUw" label="-"/>
+      <cardinality xmi:id="_VcddFpQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <type xmi:id="_VcddF5QMEeyqd-8HvXcrUw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VcddGJQMEeyqd-8HvXcrUw" name="l2">
+      <modelElement href="geometria.uml#_GpCFAZQMEeyqd-8HvXcrUw"/>
+      <stereotypes xmi:id="_VcddGZQMEeyqd-8HvXcrUw" name="LegacyStyledElement">
+        <modelElement href="geometria.uml#_GpDTIJQMEeyqd-8HvXcrUw"/>
+      </stereotypes>
+      <visibility xmi:id="_VcddGpQMEeyqd-8HvXcrUw" label="-"/>
+      <cardinality xmi:id="_VcddG5QMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <type xmi:id="_VcddHJQMEeyqd-8HvXcrUw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VcddHZQMEeyqd-8HvXcrUw" name="Rectangulo_JRIN">
+      <modelElement href="geometria.uml#_Gn740JQMEeyqd-8HvXcrUw"/>
+      <visualProperties xmi:id="_XZ7PUJQMEeyqd-8HvXcrUw"/>
+      <keywords xmi:id="_VcddHpQMEeyqd-8HvXcrUw" keyword="create"/>
+      <visibility xmi:id="_VcddH5QMEeyqd-8HvXcrUw" label="+"/>
+      <cardinality xmi:id="_VceEIJQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VceEIZQMEeyqd-8HvXcrUw">
+        <modelElement href="geometria.uml#_Gn8f4pQMEeyqd-8HvXcrUw"/>
+        <type xmi:id="_VceEIpQMEeyqd-8HvXcrUw" name="Rectangulo_JRIN">
+          <modelElement href="geometria.uml#_Gn6DoJQMEeyqd-8HvXcrUw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VceEI5QMEeyqd-8HvXcrUw" name="tipoFigura">
+        <modelElement href="geometria.uml#_Gn740ZQMEeyqd-8HvXcrUw"/>
+        <cardinality xmi:id="_VceEJJQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+        <type xmi:id="_VceEJZQMEeyqd-8HvXcrUw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VceEJpQMEeyqd-8HvXcrUw" name="lG">
+        <modelElement href="geometria.uml#_Gn740pQMEeyqd-8HvXcrUw"/>
+        <cardinality xmi:id="_VceEJ5QMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+        <type xmi:id="_VceEKJQMEeyqd-8HvXcrUw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VceEKZQMEeyqd-8HvXcrUw" name="lP">
+        <modelElement href="geometria.uml#_Gn7405QMEeyqd-8HvXcrUw"/>
+        <cardinality xmi:id="_VceEKpQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+        <type xmi:id="_VceEK5QMEeyqd-8HvXcrUw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VceELJQMEeyqd-8HvXcrUw" name="area">
+      <modelElement href="geometria.uml#_Gn9G8JQMEeyqd-8HvXcrUw"/>
+      <visualProperties xmi:id="_XZ7PUZQMEeyqd-8HvXcrUw"/>
+      <stereotypes xmi:id="_VceELZQMEeyqd-8HvXcrUw" name="LegacyStyledElement">
+        <modelElement href="geometria.uml#_Gn9uAZQMEeyqd-8HvXcrUw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VceELpQMEeyqd-8HvXcrUw" name="Annotations">
+        <modelElement href="geometria.uml#_Gn-VEJQMEeyqd-8HvXcrUw"/>
+      </stereotypes>
+      <visibility xmi:id="_VceEL5QMEeyqd-8HvXcrUw" label="+"/>
+      <cardinality xmi:id="_VceEMJQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VceEMZQMEeyqd-8HvXcrUw">
+        <modelElement href="geometria.uml#_Gn9uAJQMEeyqd-8HvXcrUw"/>
+        <type xmi:id="_VceEMpQMEeyqd-8HvXcrUw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VceEM5QMEeyqd-8HvXcrUw" name="perimetro">
+      <modelElement href="geometria.uml#_Gn-8IJQMEeyqd-8HvXcrUw"/>
+      <visualProperties xmi:id="_XZ72YJQMEeyqd-8HvXcrUw"/>
+      <stereotypes xmi:id="_VceENJQMEeyqd-8HvXcrUw" name="LegacyStyledElement">
+        <modelElement href="geometria.uml#_Gn_jMZQMEeyqd-8HvXcrUw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VceENZQMEeyqd-8HvXcrUw" name="Annotations">
+        <modelElement href="geometria.uml#_GoAKQJQMEeyqd-8HvXcrUw"/>
+      </stereotypes>
+      <visibility xmi:id="_VceENpQMEeyqd-8HvXcrUw" label="+"/>
+      <cardinality xmi:id="_VceEN5QMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VceEOJQMEeyqd-8HvXcrUw">
+        <modelElement href="geometria.uml#_Gn_jMJQMEeyqd-8HvXcrUw"/>
+        <type xmi:id="_VceEOZQMEeyqd-8HvXcrUw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZqMo0JQMEeyqd-8HvXcrUw" name="FiguraGeometrica_JRIN" abstractClass="true" subclassedBy="_ZqFUEJQMEeyqd-8HvXcrUw _dE51IJQMEeyqd-8HvXcrUw _e2d5YJQMEeyqd-8HvXcrUw">
+    <modelElement href="geometria.uml#_GnxgwJQMEeyqd-8HvXcrUw"/>
+    <visualProperties xmi:id="_ZqMo0ZQMEeyqd-8HvXcrUw" position="45.0,57.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZqMo0pQMEeyqd-8HvXcrUw" label="+"/>
+    <attributes xmi:id="_ZqMo05QMEeyqd-8HvXcrUw" name="tipoFigura">
+      <modelElement href="geometria.uml#_GpAP0JQMEeyqd-8HvXcrUw"/>
+      <stereotypes xmi:id="_ZqMo1JQMEeyqd-8HvXcrUw" name="LegacyStyledElement">
+        <modelElement href="geometria.uml#_GpA24JQMEeyqd-8HvXcrUw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZqMo1ZQMEeyqd-8HvXcrUw" label="#"/>
+      <cardinality xmi:id="_ZqMo1pQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZqMo15QMEeyqd-8HvXcrUw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ZqMo2JQMEeyqd-8HvXcrUw" name="FiguraGeometrica_JRIN">
+      <modelElement href="geometria.uml#_GnzV8JQMEeyqd-8HvXcrUw"/>
+      <keywords xmi:id="_ZqMo2ZQMEeyqd-8HvXcrUw" keyword="create"/>
+      <visibility xmi:id="_ZqMo2pQMEeyqd-8HvXcrUw" label="+"/>
+      <cardinality xmi:id="_ZqMo25QMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZqMo3JQMEeyqd-8HvXcrUw">
+        <modelElement href="geometria.uml#_Gnz9ApQMEeyqd-8HvXcrUw"/>
+        <type xmi:id="_ZqMo3ZQMEeyqd-8HvXcrUw" name="FiguraGeometrica_JRIN">
+          <modelElement href="geometria.uml#_GnxgwJQMEeyqd-8HvXcrUw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZqMo3pQMEeyqd-8HvXcrUw" name="tipoFigura">
+        <modelElement href="geometria.uml#_GnzV8ZQMEeyqd-8HvXcrUw"/>
+        <cardinality xmi:id="_ZqMo35QMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZqMo4JQMEeyqd-8HvXcrUw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZqMo4ZQMEeyqd-8HvXcrUw" abstractOperation="true" name="area">
+      <modelElement href="geometria.uml#_Gn0kEJQMEeyqd-8HvXcrUw"/>
+      <visibility xmi:id="_ZqMo4pQMEeyqd-8HvXcrUw" label="+"/>
+      <cardinality xmi:id="_ZqMo45QMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZqMo5JQMEeyqd-8HvXcrUw">
+        <modelElement href="geometria.uml#_Gn1LIJQMEeyqd-8HvXcrUw"/>
+        <type xmi:id="_ZqMo5ZQMEeyqd-8HvXcrUw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ZqMo5pQMEeyqd-8HvXcrUw" abstractOperation="true" name="perimetro">
+      <modelElement href="geometria.uml#_Gn1yMJQMEeyqd-8HvXcrUw"/>
+      <visibility xmi:id="_ZqMo55QMEeyqd-8HvXcrUw" label="+"/>
+      <cardinality xmi:id="_ZqMo6JQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZqMo6ZQMEeyqd-8HvXcrUw">
+        <modelElement href="geometria.uml#_Gn1yMZQMEeyqd-8HvXcrUw"/>
+        <type xmi:id="_ZqMo6pQMEeyqd-8HvXcrUw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ZqMo65QMEeyqd-8HvXcrUw" name="getTipoFigura">
+      <modelElement href="geometria.uml#_Gn2ZQJQMEeyqd-8HvXcrUw"/>
+      <visibility xmi:id="_ZqMo7JQMEeyqd-8HvXcrUw" label="+"/>
+      <cardinality xmi:id="_ZqMo7ZQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZqMo7pQMEeyqd-8HvXcrUw">
+        <modelElement href="geometria.uml#_Gn3AUJQMEeyqd-8HvXcrUw"/>
+        <type xmi:id="_ZqMo75QMEeyqd-8HvXcrUw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ZqMo8JQMEeyqd-8HvXcrUw" name="setTipoFigura">
+      <modelElement href="geometria.uml#_Gn3nYJQMEeyqd-8HvXcrUw"/>
+      <visibility xmi:id="_ZqMo8ZQMEeyqd-8HvXcrUw" label="+"/>
+      <cardinality xmi:id="_ZqMo8pQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZqMo85QMEeyqd-8HvXcrUw" name="tipoFigura">
+        <modelElement href="geometria.uml#_Gn3nYZQMEeyqd-8HvXcrUw"/>
+        <cardinality xmi:id="_ZqMo9JQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZqMo9ZQMEeyqd-8HvXcrUw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZqMo9pQMEeyqd-8HvXcrUw" name="semiPerimetro">
+      <modelElement href="geometria.uml#_Gn4OcJQMEeyqd-8HvXcrUw"/>
+      <visibility xmi:id="_ZqMo95QMEeyqd-8HvXcrUw" label="+"/>
+      <cardinality xmi:id="_ZqMo-JQMEeyqd-8HvXcrUw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZqMo-ZQMEeyqd-8HvXcrUw">
+        <modelElement href="geometria.uml#_Gn41gJQMEeyqd-8HvXcrUw"/>
+        <type xmi:id="_ZqMo-pQMEeyqd-8HvXcrUw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
